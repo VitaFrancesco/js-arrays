@@ -15,6 +15,7 @@ console.log(teachers, fourthTeacher)
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers.splice(4, 1, 'Patrick')
+// teachers[4] = 'Patrick'
 console.log(teachers)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
@@ -53,5 +54,5 @@ console.log(teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = !(teachers.length > 0);
+const isTeachersEmpty = teachers.length === 0 //!(teachers.length > 0);
 console.log(isTeachersEmpty)
